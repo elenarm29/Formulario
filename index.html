@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="./css/styles.css">
+   <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<main>
+    <form action="#" class="formulario" id="formulario" onsubmit="verificarPasswords(); return false">
+    
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="name" required>
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="mail"  pattern=".+@gmail\.com" placeholder="example@gmail.com" required>
+             </li>
+             <li>
+               <label for="clave1">Clave:</label>
+               <input id="clave1" name="password1" maxlength="8"></textarea required>
+             </li>
+             <li>
+                <label for="clave2">Confirma clave:</label>
+                <input id="clave2" name="password2" maxlength="8"></textarea required>
+              </li>            
+              
+             <li class="button">
+                <button type="submit">Enviar</button>
+             </li> 
+            </ul>
+          
+    </form>
+
+    
+ 
+
+
+    </main>
+          <script src="./js/script.js"></script>
+</body>
+
+</html>
